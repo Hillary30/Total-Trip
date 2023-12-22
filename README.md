@@ -19,6 +19,8 @@ Total Trip is a mobile application designed to help users discover and plan thei
 1. Make sure you have the Xcode version 14.0 or above installed on your computer
 2. Download the Total Trip files
 3. Get API tokens for Unsplash and Yelp
+4. In the Controllers Folder, open SearchObjectController.swift and replace YOUR_UNPLASH_TOKEN with your token
+5. Make a plist file named "Keys" and create an object named "YelpAPIKey" with a string element that holds your Yelp API token
 
 
 ## Dependencies
