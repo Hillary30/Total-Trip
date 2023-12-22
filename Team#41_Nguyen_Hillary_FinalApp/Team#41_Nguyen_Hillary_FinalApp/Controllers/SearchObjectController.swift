@@ -13,7 +13,7 @@ class SearchObjectController : ObservableObject {
     static let shared = SearchObjectController()
     private init() {}
     
-    var token = "N1jPEI4mARJIM-Di77k4V0NDbVqj8Z_CMgT9fOu3zz0"
+    var token = "YOUR_UNSPLASH_TOKEN"
     @Published var results = [Result]()
     
     func search(for query: String) {
